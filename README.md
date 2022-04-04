@@ -1,18 +1,18 @@
 # MattHeaneyStepTechnicalTest
  
-Matt Heaney Step Technical Test
-
-App Name: “flix.”
+**App Name:** “flix.”
 
 ![Flix - Main View](https://user-images.githubusercontent.com/102962730/161534738-d7c5b55d-fd1e-4068-958e-9dd28acfeaa2.png)
 ![Flix - Search](https://user-images.githubusercontent.com/102962730/161534736-2e98f1be-6445-4694-924e-a8ba43eb2cb0.png)
 ![Flix - Details View](https://user-images.githubusercontent.com/102962730/161534732-8701acf3-3a11-4e02-ad21-e22563420642.png)
 
 **Frameworks Used:**
+
 - UIKit (SwiftUI was not an option, due to the requirement that the app runs on iOS 12). All views were created in code, rather than in storyboards or xib files.
 - RxSwift/ RxAlamofire
 
 **Architecture:**
+
 - MVVM-C has been used (MVVM and the coordinator pattern)
 - View models were created for all view controllers and cells.
 - A coordinator has been created to handle navigation, ensure navigation is flexible, scalable and maintainable using the Coordinator Pattern
@@ -23,6 +23,7 @@ App Name: “flix.”
 - A dependency injection system was used. Services are injected into objects via the initialiser, and have a default value. This allows the main version of these services to be used, but also allowing to easily swap in a mock version of the service.
 
 **Targets:**
+
 Two targets have been set up in the app: a production target, and a local target. This has been completed to allow for efficient UITests and Snapshot tests.
 
 Prod Target: “Step Technical Test”
@@ -32,6 +33,7 @@ Local Target: “LocalStepTechnicalTest”
 - When running this target, the app will use mocked data hard-coded into the target. This includes three example movies, and all image assets needed.
 
 **Tests:**
+
 Unit tests, UITests and Snapshot tests have been added to the project.
 
 - Unit tests run in the prod target. Tests included are for the MainViewModel and the DetailsViewModel. These tests make use of mocked versions of the NetworkService and the RepoService to ensure no real API requests are made in the tests, keeping efficiency high.
