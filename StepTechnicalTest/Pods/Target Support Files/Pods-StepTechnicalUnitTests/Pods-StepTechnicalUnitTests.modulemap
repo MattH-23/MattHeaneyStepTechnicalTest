@@ -1,0 +1,6 @@
+module Pods_StepTechnicalUnitTests {
+  umbrella header "Pods-StepTechnicalUnitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

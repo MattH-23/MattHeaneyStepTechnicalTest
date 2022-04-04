@@ -1,0 +1,6 @@
+module Pods_LocalStepTechnicalTest {
+  umbrella header "Pods-LocalStepTechnicalTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
