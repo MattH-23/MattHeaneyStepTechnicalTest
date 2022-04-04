@@ -26,7 +26,7 @@
 
 Two targets have been set up in the app: a production target, and a local target. This has been completed to allow for efficient UITests and Snapshot tests.
 
-Prod Target: “Step Technical Test”
+Prod Target: “StepTechnicalTest”
 - When running this target, the app will complete real requests to the API, populating the app’s data source from the response.
 
 Local Target: “LocalStepTechnicalTest”
