@@ -3,9 +3,10 @@
 Matt Heaney Step Technical Test
 
 App Name: “flix.”
-![Flix - Details View](https://user-images.githubusercontent.com/102962730/161534563-60471488-6603-438a-b3ae-1faef499cc77.png)
-![Flix - Search](https://user-images.githubusercontent.com/102962730/161534576-136b97ba-06d1-4f74-a631-c66b7dec53d1.png)
-![Flix - Main View](https://user-images.githubusercontent.com/102962730/161534580-7c4da10f-128d-4113-aa1f-49ceea2571fe.png)
+
+![Flix - Details View](https://user-images.githubusercontent.com/102962730/161534732-8701acf3-3a11-4e02-ad21-e22563420642.png)
+![Flix - Search](https://user-images.githubusercontent.com/102962730/161534736-2e98f1be-6445-4694-924e-a8ba43eb2cb0.png)
+![Flix - Main View](https://user-images.githubusercontent.com/102962730/161534738-d7c5b55d-fd1e-4068-958e-9dd28acfeaa2.png)
 
 Frameworks Used:
 - UIKit (SwiftUI was not an option, due to the requirement that the app runs on iOS 12). All views were created in code, rather than in storyboards or xib files.
