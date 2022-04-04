@@ -34,7 +34,7 @@ Unit tests, UITests and Snapshot tests have been added to the project.
 
 - UITests run in the local target, making use of local data. The UITests use the Robot Pattern to ensure UITests stay very readable and scalable.
 
-- SnapshotTests run in local, using the pod ‘SnapshotTesting’. The snapshot tests focus on the detail view controller with two different example movies. These tests need to be running on an iPhone 13 on iOS 15, and on an M1 backed machine to pass (Snapshot testing is a great tool, but requires the same simulator setup to pass)
+- SnapshotTests run in local, using the pod ‘SnapshotTesting’. The snapshot tests focus on the detail view controller with two different example movies. These tests need to be running on an iPhone 13 Pro Max on iOS 15, and on an M1 backed machine to pass (Snapshot testing is a great tool, but requires the same simulator setup to pass)
 - 
 
 Note:
