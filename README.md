@@ -32,6 +32,8 @@ Prod Target: “StepTechnicalTest”
 Local Target: “LocalStepTechnicalTest”
 - When running this target, the app will use mocked data hard-coded into the target. This includes three example movies, and all image assets needed.
 
+***(To run the prod version of the app, make sure to be running the correct target!)***
+
 **Tests:**
 
 Unit tests, UITests and Snapshot tests have been added to the project.
