@@ -4,6 +4,10 @@ Matt Heaney Step Technical Test
 
 App Name: “flix.”
 
+![Flix - Main View](https://user-images.githubusercontent.com/102962730/161533878-a7b0e64d-7d9b-434f-821e-d780319692de.png)
+![Flix - Search](https://user-images.githubusercontent.com/102962730/161533886-6a727a82-92da-4982-aa3f-051703d4a874.png)
+![Flix - Details View](https://user-images.githubusercontent.com/102962730/161533893-62f24dad-1ef9-422b-bdbd-af30cca05bad.png)
+
 Frameworks Used:
 - UIKit (SwiftUI was not an option, due to the requirement that the app runs on iOS 12). All views were created in code, rather than in storyboards or xib files.
 - RxSwift/ RxAlamofire
@@ -35,7 +39,6 @@ Unit tests, UITests and Snapshot tests have been added to the project.
 - UITests run in the local target, making use of local data. The UITests use the Robot Pattern to ensure UITests stay very readable and scalable.
 
 - SnapshotTests run in local, using the pod ‘SnapshotTesting’. The snapshot tests focus on the detail view controller with two different example movies. These tests need to be running on an iPhone 13 on iOS 15, and on an M1 backed machine to pass (Snapshot testing is a great tool, but requires the same simulator setup to pass)
-- 
 
 Note:
 - I have spotted what looks like a bug, where the “Uncharted” movie appears twice in a row. This is the correct display based on the response.
