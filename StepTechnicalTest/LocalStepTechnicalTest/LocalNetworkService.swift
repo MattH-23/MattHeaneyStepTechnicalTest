@@ -16,7 +16,6 @@ class NetworkService: NetworkServiceProtocol {
     static let Shared: NetworkServiceProtocol = NetworkService()
     
     func getMovies(searchQuery: String? = nil, page: Int) -> Single<MovieResponse> {
-        
         if searchQuery != "" {
             return .just(MovieResponse(totalNumberOfPages: 1, movies: []))
         } else {

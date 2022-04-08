@@ -68,6 +68,8 @@ class MainViewModel {
                     self.movieDataSourceObserver.on(.error((err)))
                 }
             )
+        
+        networkRequestDisposable?.disposed(by: disposeBag)
     }
     
     func loadMoreResults() {

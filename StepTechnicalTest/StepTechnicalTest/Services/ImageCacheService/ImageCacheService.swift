@@ -13,17 +13,12 @@ class ImageCacheService {
     static let Shared = ImageCacheService()
     
     //MARK: - Properties
-    private let imageCache = NSCache<AnyObject, AnyObject>()
+    private let imageCache = NSCache<NSString, UIImage>()
     
     ///Load the image from cache. Returns nil if it doesn't exist in cache.
     func loadImageFromCacheIfAvailable(url: URL) -> UIImage? {
         let cacheKey = url.absoluteString as NSString
-        
-        if let imageFromCache = imageCache.object(forKey: cacheKey) as? UIImage {
-            return imageFromCache
-        } else {
-            return nil
-        }
+        return imageCache.object(forKey: cacheKey)
     }
     
     ///Stores the image cache, using the url as the key

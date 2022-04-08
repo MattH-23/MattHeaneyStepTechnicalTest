@@ -154,6 +154,7 @@
 		C93AF25227FAE17700CE5EF6 /* MockNetworkServiceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkServiceResponse.swift; sourceTree = "<group>"; };
 		C93AF25427FAEDF600CE5EF6 /* LocalNetworkServiceErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNetworkServiceErrors.swift; sourceTree = "<group>"; };
 		C93AF25627FAEE2800CE5EF6 /* NetworkServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceError.swift; sourceTree = "<group>"; };
+		C94789E028003A8500C014C7 /* LocalInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LocalInfo.plist; sourceTree = "<group>"; };
 		C94E65A227F8882400F9F9B9 /* SearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
 		C94E65A627F9818000F9F9B9 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
 		C94E65A927F984F700F9F9B9 /* MainViewControllers+Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewControllers+Views.swift"; sourceTree = "<group>"; };
@@ -269,6 +270,7 @@
 		C93AF21E27FA66A000CE5EF6 /* LocalStepTechnicalTest */ = {
 			isa = PBXGroup;
 			children = (
+				C94789E028003A8500C014C7 /* LocalInfo.plist */,
 				C93AF22127FA66EC00CE5EF6 /* LocalNetworkService.swift */,
 				C93AF25427FAEDF600CE5EF6 /* LocalNetworkServiceErrors.swift */,
 				C93AF22427FA67F100CE5EF6 /* LocalResponse.swift */,
@@ -1054,7 +1056,7 @@
 				DEVELOPMENT_TEAM = M552RCRV7L;
 				ENABLE_TESTING_SEARCH_PATHS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "StepTechnicalTest copy-Info.plist";
+				INFOPLIST_FILE = LocalStepTechnicalTest/LocalInfo.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "flix. Local";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -1088,7 +1090,7 @@
 				DEVELOPMENT_TEAM = M552RCRV7L;
 				ENABLE_TESTING_SEARCH_PATHS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "StepTechnicalTest copy-Info.plist";
+				INFOPLIST_FILE = LocalStepTechnicalTest/LocalInfo.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "flix. Local";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
