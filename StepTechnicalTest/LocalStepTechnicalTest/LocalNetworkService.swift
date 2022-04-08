@@ -18,8 +18,10 @@ class NetworkService: NetworkServiceProtocol {
     func getMovies(searchQuery: String? = nil, page: Int) -> Single<MovieResponse> {
         if searchQuery != "" {
             return .just(MovieResponse(totalNumberOfPages: 1, movies: []))
+                .delay(.seconds(1), scheduler: MainScheduler.instance)
         } else {
             return .just(MovieResponse(totalNumberOfPages: 1, movies: LocalResponse.movies))
+                .delay(.seconds(1), scheduler: MainScheduler.instance)
         }
     }
     

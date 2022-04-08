@@ -23,15 +23,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C43468BB-3052-49FB-A5DC-6FCF56F6C5D4"
-            shouldBeEnabled = "No"
+            uuid = "CB0DBAAE-DE92-40D2-A338-CB66882EBFEC"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "StepTechnicalTest/Views/MainView/Cells/MovieCell/View/MovieCell+Views.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "addMovieHUD()"
             landmarkType = "7">
          </BreakpointContent>
