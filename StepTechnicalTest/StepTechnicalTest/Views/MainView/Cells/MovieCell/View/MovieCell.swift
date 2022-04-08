@@ -21,6 +21,8 @@ class MovieCell: UICollectionViewCell {
     let movieImage = UIImageView()
     let starImage = UIImageView()
     let activityIndicator = UIActivityIndicatorView()
+    let favouriteHUD = UIView()
+    let movieHUD = UIView()
     
     //MARK: - Subscriptions
     private var networkRequestDisposable: Disposable?

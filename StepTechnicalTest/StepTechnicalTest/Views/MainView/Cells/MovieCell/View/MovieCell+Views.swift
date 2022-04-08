@@ -40,7 +40,6 @@ extension MovieCell {
     
     //MARK: - Movie HUD
     func addMovieHUD() {
-        let movieHUD = UIView()
         movieHUD.backgroundColor = .black
         movieHUD.alpha = 0.8
         movieHUD.translatesAutoresizingMaskIntoConstraints = false
@@ -68,7 +67,6 @@ extension MovieCell {
     
     //MARK: - User Favourites
     func addFavouriteHUD() {
-        let favouriteHUD = UIView()
         favouriteHUD.backgroundColor = .black
         favouriteHUD.alpha = 0.8
         favouriteHUD.translatesAutoresizingMaskIntoConstraints = false
